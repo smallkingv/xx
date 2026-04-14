@@ -1,0 +1,37 @@
+{
+  "id": "nanguayingyuan",
+  "name": "南瓜影院",
+  "default": true,
+  "spider": "",
+  "wallpaper": "",
+  "logo": "",
+  "sites": [
+    {
+      "key": "nanguayy",
+      "name": "南瓜影院",
+      "type": 1,
+      "api": "https://www.nanguayingyuan.com/api.php/vod",
+      "search": "/search?wd={wd}",
+      "class": "内地$1,欧美$2,韩剧$3,马泰$4,日剧$5,香港$6,短剧$7,电影$8,动漫$9,综艺$10",
+      "filter": "{}",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        }
+      }
+    }
+  ],
+  "lives": [],
+  "parses": [
+    {
+      "name": "通用解析",
+      "url": "https://jx.qqxi.top/?url={url}"
+    },
+    {
+      "name": "备用解析",
+      "url": "https://jx.12cm.cc/?url={url}"
+    }
+  ],
+  "flags": [],
+  "epg": ""
+}
