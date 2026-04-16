@@ -1,0 +1,16 @@
+{
+    "AacAudioFix": {
+        "name": "AAC音频增强",
+        "description": "媒体整理完成后，自动检测并为视频增加一条AAC立体声音轨，保持原格式和字幕不变。",
+        "labels": "媒体处理, 音频, 自动化",
+        "version": "1.2",
+        "icon": "icon.png",
+        "author": "Lingma",
+        "level": 2,
+        "history": {
+            "1.2": "严格遵循 MoviePilot V2 官方开发规范，使用 package.v2.json",
+            "1.1": "优化音频映射逻辑，保持原格式和字幕不变",
+            "1.0": "初始版本"
+        }
+    }
+}
